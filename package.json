@@ -1,0 +1,25 @@
+{
+  "name": "hodash.set",
+  "version": "0.0.0",
+  "description": "Sets nested properties.",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "lodash",
+    "hodash",
+    "set",
+    "deeply nested",
+    "nested",
+    "deep"
+  ],
+  "author": "Tomas Savigliano",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1"
+  }
+}
